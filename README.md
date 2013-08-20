@@ -1,3 +1,21 @@
+Modified p2pool-13.3 to run with Digitalcoin, Worldcoin, and Craftcoin.
+
+Donations
+-------------------------
+Bitcoin		1DJPxjc4uDeaPdRpEofNyymbudV8WdozVR
+
+Litecoin	LYhTMBGKuDksxPAFUvNXXkGkWQVmaK75oD
+
+Digitalcoin	D5tWKx7njiFj8Ejr3h4ii8LRdxHJBKSZF9
+
+Worldcoin	WbmHBuaAYhDn8zY9JaxRqNoWMtQjEM6Dfb
+
+Craftcoin	QBFBJs6KBX2GZogVdti6Ui6Zyx81gYPuVE
+
+
+Original P2Pool README:
+-------------------------
+
 Requirements:
 -------------------------
 Generic:
