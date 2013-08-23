@@ -169,7 +169,7 @@ nets = dict(
         PERSIST=False,
         WORKER_PORT=8820,
         BOOTSTRAP_ADDRS='wdc.xpool.net'.split(' '),
-        ANNOUNCE_CHANNEL='#worldcoin',
+        ANNOUNCE_CHANNEL='#xpool',
         VERSION_CHECK=lambda v: True,
     ),
     
