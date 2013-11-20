@@ -180,9 +180,9 @@ nets = dict(
             'digitalcoinaddress' in (yield bitcoind.rpc_help()) and
             not (yield bitcoind.rpc_getinfo())['testnet']
         )),
-        SUBSIDY_FUNC=lambda height: 20*10000000 >> (height + 1)//4730400,
+        SUBSIDY_FUNC=lambda height: 15*10000000 >> (height + 1)//4730400,
         POW_FUNC=lambda data: pack.IntType(256).unpack(__import__('ltc_scrypt').getPoWHash(data)),
-        BLOCK_PERIOD=20, # s targetspacing
+        BLOCK_PERIOD=40, # s targetspacing
         SYMBOL='DGC',
         CONF_FILE_FUNC=lambda: os.path.join(os.path.join(os.environ['APPDATA'], 'digitalcoin') if platform.system() == 'Windows' else os.path.expanduser('~/Library/Application Support/digitalcoin/') if platform.system() == 'Darwin' else os.path.expanduser('~/.digitalcoin'), 'digitalcoin.conf'),
         BLOCK_EXPLORER_URL_PREFIX='http://altcha.in/block/',
