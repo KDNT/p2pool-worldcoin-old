@@ -163,13 +163,13 @@ nets = dict(
         NEW_SPREAD=60, # blocks
         IDENTIFIER='793D870E4902D996'.decode('hex'),
         PREFIX='20E8B6037B0F98C7'.decode('hex'),
-        P2P_PORT=23620,
+        P2P_PORT=48907,
         MIN_TARGET=0,
         MAX_TARGET=2**256//2**20 - 1,
         PERSIST=False,
-        WORKER_PORT=8820,
-        BOOTSTRAP_ADDRS='wdc.xpool.net'.split(' '),
-        ANNOUNCE_CHANNEL='#xpool',
+        WORKER_PORT=19331,
+        BOOTSTRAP_ADDRS=''.split(' '),
+        ANNOUNCE_CHANNEL='#mining',
         VERSION_CHECK=lambda v: True,
     ),
     

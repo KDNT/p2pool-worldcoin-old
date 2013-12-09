@@ -171,7 +171,7 @@ def get_web_root(wb, datadir_path, bitcoind_warning_var, stop_event=variable.Eve
             donation_proportion=wb.donation_percentage/100,
             version=p2pool.__version__,
             protocol_version=p2p.Protocol.VERSION,
-            fee=wb.worker_fee,
+            fee_private=wb.worker_fee,
         )
     
     class WebInterface(deferred_resource.DeferredResource):
